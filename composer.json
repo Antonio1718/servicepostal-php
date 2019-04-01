@@ -1,0 +1,21 @@
+{
+    "name": "antonio1718/sp-api-php",
+    "description": "PHP client servicepostal API",
+    "keywords": ["servicepostal", "api"],
+    "homepage": "https://github.com/servicepostal/servicepostal-php/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "antonio-nirina",
+            "email": "antonio.jacques@servicepostal.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+     "autoload": {
+        "psr-4": {
+            "Spapi\\": "src/"
+        }
+    }
+}
