@@ -46,5 +46,5 @@ $data = [
 
 $response = $spapi->send(ServiceSp::PUBLIPOSTAGE, $data);
 
-var_dump($response);
+print_r($response);
 ````
