@@ -1,7 +1,7 @@
 [doc]: http://sandox-sp-api/?php#
 
 ![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)
-![Current Version](https://img.shields.io/badge/version-1.1.8-green.svg)
+![Current Version](https://img.shields.io/badge/version-1.0-green.svg)
 
 ## Requirements
 
@@ -41,7 +41,7 @@ $data = [
 	'placement_adresse' => 'premiere_page',
 	'surimpression_expediteur_document' => true,
 	"impression_expediteur_enveloppe" => true,
-    "code_barre" => true,
+    	"code_barre" => true,
 ];
 
 $response = $spapi->send(ServiceSp::PUBLIPOSTAGE, $data);
