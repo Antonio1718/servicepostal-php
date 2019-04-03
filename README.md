@@ -1,5 +1,8 @@
 [doc]: http://sandox-sp-api/?php#
 
+![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)
+![Current Version](https://img.shields.io/badge/version-1.1.8-green.svg)
+
 ## Requirements
 
 `PHP >= 5.4`
